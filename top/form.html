@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="Ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>Nalitqco定期便入会フォーム</title>
+        <link rel="stylesheet" href="style-form.css">
+    </head>
+
+    <body>
+        <header>
+        <h1>Nalitqco定期便入会フォーム</h1>
+        <p>Nalitqco定期便へのご入会をご希望の方は，以下の必要事項を記入し「送信」ボタンを押してください。</p>
+        </header>
+    </body>
+    <br>
+    <br>
+
+<form action="Nalitqco_form.php" method="post" name="Nalitqco_form">
+
+    希望プラン：
+    <select name="plan">
+        <option value="10">ゲソ8本+頭部</option>
+        <option value="8">ゲソ8本</option>
+        <option value="4">ゲソ4本</option>
+    </select>
+    <br>
+    <br>
+
+
+    名前： 
+    <input type="text" placeholder="なりたこ 蛸男">
+    <br>
+    <br>
+
+    性別：
+    <input type="radio" name="gender" value="男性"> 男性
+    <input type="radio" name="gender" value="女性"> 女性
+    <input type="radio" name="gender" value="その他" checked> 選択しない
+    <br>
+    <br>
+    
+    住所：
+    <input type="search" placeholder="東京都千代田区○○ー□□">
+    <br>
+    <br>
+    
+    電話番号：
+    <input type="tel" placeholder="012-3456-7890">
+    <br>
+    <br>
+
+    メールアドレス：
+    <input type="email" placeholder="Nalitqco@tqcomail.com">
+    <br>
+    <br>
+
+    <h3>☆アンケート☆</h3>
+    Nalitqcoのどんなところに興味を持ちましたか？
+    <br>
+    <input type="checkbox" name="kyoumi" value="見た目">見た目
+    <input type="checkbox" name="kyoumi" value="生態">生態
+    <input type="checkbox" name="kyoumi" value="料理方法">料理方法
+    <input type="checkbox" name="kyoumi" value="イベント">イベント
+    <input type="checkbox" name="kyoumi" value="その他">その他
+    <br>
+    <br>
+
+    Nalitqcoの好きな部位は？
+    <br>
+    <input type="checkbox" name="bui" value="頭部">頭部
+    <input type="checkbox" name="bui" value="ゲソ">ゲソ
+    <input type="checkbox" name="bui" value="その他">その他
+    <br>
+    <br>
+
+    Nalitqcoへメッセージ等ございましたら，お書きください。
+    <br>
+    <textarea name="message" placeholder="メッセージを入力"></textarea>
+    <br>
+    <br>
+
+    <input type="submit" value="送信する">
+</form>
+
+</html>
